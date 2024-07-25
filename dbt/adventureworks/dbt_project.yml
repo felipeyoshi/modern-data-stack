@@ -33,3 +33,7 @@ models:
   adventureworks:
     staging:
       +materialized: 'view'
+    int:
+      +materialized: 'table'
+    marts:
+      +materialized: 'table'
