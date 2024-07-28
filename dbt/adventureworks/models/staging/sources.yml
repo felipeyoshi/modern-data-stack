@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: adventureworks
-    database: raw
+    database: raw_dbt
     schema: adventureworks
     tables:
       - name: adventureworks_calendar_lookup

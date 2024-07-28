@@ -10,7 +10,7 @@ final as (
         emailaddress as email_address,
         occupation,
         case 
-            when birthdate = '' or birthdate is null then null  
+            when cast(birthdate as string) = '' or birthdate is null then null  
             else to_date(birthdate)
         end as birth_date,
         gender,

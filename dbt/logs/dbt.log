@@ -179,3 +179,31 @@ Internal Error
 [0m18:33:51.483254 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m18:33:51.483254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002044818E3C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002044841C980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020445DF3440>]}
 [0m18:33:51.483254 [debug] [MainThread]: Flushing usage events
+[0m11:58:35.571749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002013D0154F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002013D017380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002013D017560>]}
+
+
+============================== 11:58:35.575280 | fb25615b-f555-4eab-8735-5deed8235e90 ==============================
+[0m11:58:35.575280 [info ] [MainThread]: Running with dbt=1.8.3
+[0m11:58:35.576280 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Felip\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init raw', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:58:35.594048 [debug] [MainThread]: Starter project path: c:\venv\dbt\Lib\site-packages\dbt\include\starter_project
+[0m11:58:35.604209 [info ] [MainThread]: 
+Your new dbt project "raw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:58:35.605209 [info ] [MainThread]: Setting up your profile.
+[0m11:59:03.117953 [info ] [MainThread]: Profile raw written to C:\Users\Felip\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:59:03.119220 [debug] [MainThread]: Command `dbt init` succeeded at 11:59:03.119220 after 27.65 seconds
+[0m11:59:03.119220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002013D2FCE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002013D43BC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002013D457680>]}
+[0m11:59:03.120226 [debug] [MainThread]: Flushing usage events
