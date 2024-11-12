@@ -1,0 +1,13 @@
+adventureworks:
+  outputs:
+    dev:
+      account: pnb88660.us-east-1
+      database: analytics
+      password: Flpy@1022      
+      role: accountadmin
+      schema: dbt
+      threads: 4
+      type: snowflake
+      user: fyoshimoto
+      warehouse: compute_wh
+  target: dev

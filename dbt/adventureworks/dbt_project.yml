@@ -31,9 +31,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   adventureworks:
-    staging:
+    bronze:
       +materialized: 'view'
-    int:
+    silver:
       +materialized: 'table'
-    marts:
+    gold:
       +materialized: 'table'
